@@ -7,7 +7,6 @@ def main():
     # Solicitar al usuario el nombre de una fuente
     fuente_usuario = input("Ingrese el nombre de una fuente")
     
-    # Obtener la lista de fuentes disponibles
     fuentes_disponibles = figlet.getFonts()
     
     # Seleccionar una fuente aleatoria si no se ingresó ninguna
